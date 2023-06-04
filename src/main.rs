@@ -1,7 +1,7 @@
 use std::*;
 
 fn main() {
-    let prompt = &"This program will find the longest word in that sentence\n\nEnter a sentence now to begin\n";
+    let prompt = &"This program will find the longest word in a sentence.\n\nEnter a sentence now to begin!\n";
     let response = get_user_input(prompt);
 
     if response.chars().count() == 0 {
